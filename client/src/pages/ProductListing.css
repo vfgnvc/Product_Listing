@@ -1,0 +1,25 @@
+
+.categories-list {
+  list-style: none;
+  padding:4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  }
+  
+  .category-button {
+    background-color: #333333cc;
+    color: #fff;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .category-button:hover {
+    background-color: black;
+  }
+  

@@ -1,0 +1,31 @@
+
+
+.navbar {
+    background-color: #333;
+    color: #fff; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right {
+    display: flex;
+    gap: 1rem; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #FF5733; 
+  }
